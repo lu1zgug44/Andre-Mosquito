@@ -21,6 +21,7 @@ function desenharMosquito(){
     mosquito.className = 'mosq01'
     mosquito.style.left = posX + 'px'
     mosquito.style.top = posY + 'px'
+    mosquito.style.position = 'absolute'
 }
 
 desenharMosquito()
