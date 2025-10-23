@@ -12,8 +12,8 @@ function ajustarTela(){
 ajustarTela()
 
 function desenharMosquito(){
-    let posX = Math.random()
-    let posY = Math.random()
+    let posX = parseInt(Math.random()*10)
+    let posY = parseInt(Math.random()*10)
     console.log(posX, posY)
     let mosquito = document.createElement('img')
     mosquito.src = 'imagens/mosquito.png'
