@@ -19,6 +19,8 @@ function desenharMosquito(){
     mosquito.src = 'imagens/mosquito.png'
     document.body.appendChild(mosquito)
     mosquito.className = 'mosq01'
+    mosquito.style.left = posX + 'px'
+    mosquito.style.top = posY + 'px'
 }
 
 desenharMosquito()
