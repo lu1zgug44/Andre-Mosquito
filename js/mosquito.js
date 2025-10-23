@@ -12,5 +12,10 @@ function ajustarTela(){
 ajustarTela()
 
 function desenharMosquito(){
-    
+    let mosquito = document.createElement('img')
+    mosquito.src = 'imagens/mosquito.png'
+    document.body.appendChild(mosquito)
+    mosquito.className = 'mosq01'
 }
+
+desenharMosquito()
