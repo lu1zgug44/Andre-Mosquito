@@ -44,3 +44,5 @@ function giraGira(){
             break
     }
 }
+
+setInterval(function (){desenharMosquito()}, 2000)
