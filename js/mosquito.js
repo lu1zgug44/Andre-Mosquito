@@ -20,7 +20,7 @@ function desenharMosquito(){
     let mosquito = document.createElement('img')
     mosquito.src = 'imagens/mosquito.png'
     document.body.appendChild(mosquito)
-    mosquito.className = tamanhoMosquito()
+    mosquito.className = tamanhoMosquito() +' '+ giraGira()
     mosquito.style.left = posX + 'px'
     mosquito.style.top = posY + 'px'
     mosquito.style.position = 'absolute'
@@ -38,7 +38,9 @@ function giraGira(){
     switch(girar){
         case 0:
             return 'ladoA'
+        break
         case 1:
             return 'ladoB'
+            break
     }
 }
