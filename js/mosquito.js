@@ -1,4 +1,4 @@
-// criação de variáveis
+// criação das variáveis
 
 let largura = 0
 let altura = 0
