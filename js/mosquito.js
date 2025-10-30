@@ -45,4 +45,4 @@ function giraGira(){
     }
 }
 
-setInterval(function (){desenharMosquito()}, 2000)
+setInterval(function (){desenharMosquito()}, 500)
