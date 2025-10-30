@@ -20,7 +20,7 @@ function desenharMosquito(){
     let mosquito = document.createElement('img')
     mosquito.src = 'imagens/mosquito.png'
     document.body.appendChild(mosquito)
-    mosquito.className = 'tamanhoMosquito'
+    mosquito.className = tamanhoMosquito()
     mosquito.style.left = posX + 'px'
     mosquito.style.top = posY + 'px'
     mosquito.style.position = 'absolute'
@@ -30,12 +30,5 @@ desenharMosquito()
 
 function tamanhoMosquito(){
     let tamanho = parseInt(Math.random()*3)+1
-    switch(classe){
-        case 0:
-            return 'mosq01'
-        case 1:
-            return 'mosq02'
-        case 2:
-            return 'mosq03'
-    }
+    return 'mosq' + tamanho
 }
