@@ -32,3 +32,13 @@ function tamanhoMosquito(){
     let tamanho = parseInt(Math.random()*3)+1
     return 'mosq' + tamanho
 }
+
+function giraGira(){
+    let girar = parseInt(Math.random()*2)
+    switch(girar){
+        case 0:
+            return 'ladoA'
+        case 1:
+            return 'ladoB'
+    }
+}
